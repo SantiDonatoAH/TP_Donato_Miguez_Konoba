@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public Producto[] productos;  // Array de todos los productos
+    public Producto[] productos;  
     public Transform producto1Position;
     public Transform producto2Position;
     public Text precio1Text;
@@ -80,6 +80,6 @@ public class GameController : MonoBehaviour
 
     public void OnExit()
     {
-        // Código para cargar la escena "SeleccionarJuegos"
+        // code para cargar la escena "SeleccionarJuegos"
     }
 }
